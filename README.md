@@ -1,6 +1,6 @@
 # crystal-rlp (Recursive Length Prefix)
 
-This library intends to implement the entire RLP algorithm in native Crystal.
+This library intends to implement the entire coding RLP algorithm in native Crystal.
 
 ## Installation
 
