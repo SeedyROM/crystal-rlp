@@ -1,5 +1,7 @@
 # crystal-rlp (Recursive Length Prefix)
 
+[![Build Status](https://travis-ci.com/SeedyROM/crystal-rlp.svg?branch=master)](https://travis-ci.com/SeedyROM/crystal-rlp)
+
 This library intends to implement the entire RLP coding algorithm in native Crystal.
 
 ## Installation
