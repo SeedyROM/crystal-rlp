@@ -1,6 +1,6 @@
-# rlp
+# crystal-rlp (Recursive Length Prefix)
 
-TODO: Write a description here
+This library intends to implement the entire RLP algorithm in native Crystal.
 
 ## Installation
 
@@ -9,7 +9,7 @@ TODO: Write a description here
    ```yaml
    dependencies:
      rlp:
-       github: your-github-user/rlp
+       github: SeedyROM/crystal-rlp
    ```
 
 2. Run `shards install`
@@ -17,7 +17,7 @@ TODO: Write a description here
 ## Usage
 
 ```crystal
-require "rlp"
+require "crystal-rlp"
 ```
 
 TODO: Write usage instructions here
@@ -28,12 +28,12 @@ TODO: Write development instructions here
 
 ## Contributing
 
-1. Fork it (<https://github.com/your-github-user/rlp/fork>)
-2. Create your feature branch (`git checkout -b my-new-feature`)
+1. Fork it (<https://github.com/SeedyROM/rlp/fork>)
+2. Create your feature branch (`git checkout -b feature/my-new-feature`)
 3. Commit your changes (`git commit -am 'Add some feature'`)
-4. Push to the branch (`git push origin my-new-feature`)
+4. Push to the branch (`git push origin feature/my-new-feature`)
 5. Create a new Pull Request
 
 ## Contributors
 
-- [Zack Kollar](https://github.com/your-github-user) - creator and maintainer
+- [Zack Kollar](https://github.com/SeedyROM) - creator and maintainer
