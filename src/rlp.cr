@@ -12,19 +12,20 @@ module RLP
   def encode_spec_type(input : T) forall T
     buffer = IO::Memory.new(sizeof(UInt8))
 
-    # Test input type
+    # **DEBUG INPUT TYPE**
+    #
     # puts typeof(input)
     # puts input
+    #
+
+    msg = "NOT IMPLEMENTED"
 
     if typeof(input) == UInt8
       if input >= 0x00u8 || input < 0xFFu8
         msg = "OWN ENCODING"
-        puts msg
         return msg
       end
     else
-      msg = "NOT IMPLEMENTED"
-      puts msg
       return msg
     end
   end
