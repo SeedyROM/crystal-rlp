@@ -6,10 +6,10 @@ module RLP
   extend self
 
   # Value type
-  alias Value = Int64 | Char
+  alias Value = Int32 | Int64 | Char
 
   # Encode a valid encoded input
-  def get_spec_type(input : T) forall T
+  def get_spec_type(input : Value) forall Value
     buffer = IO::Memory.new(sizeof(UInt8))
 
     # **DEBUG INPUT TYPE**
