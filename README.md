@@ -17,7 +17,7 @@ This library intends to implement the entire RLP coding algorithm in native Crys
 ## Usage
 
 ```crystal
-require "crystal-rlp"
+require "rlp"
 ```
 
 TODO: Write usage instructions here
