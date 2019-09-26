@@ -1,0 +1,9 @@
+name: rlp
+version: 0.1.0
+
+authors:
+  - Zack Kollar <rallokkcaz@gmail.com>
+
+crystal: 0.30.1
+
+license: MIT
